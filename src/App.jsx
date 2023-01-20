@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="md:h-screen md:flex md:items-center md:justify-center">
-      <div className="flex flex-col items-center overflow-hidden md:flex-row md:h-3/4 md:w-[85%] lg:w-[68%] xl:w-[58%] md:bg-white md:rounded-xl md:p-5">
+      <div className="flex flex-col items-center overflow-hidden md:flex-row md:h-3/4 md:w-[94%] lg:w-[75%] xl:w-[58%] md:bg-white md:rounded-xl md:p-5">
         <div className="flex gap-5 justify-center items-start h-[28vh] w-screen mx-auto bg-cover bg-center bg-no-repeat bg-[url(/images/bg-sidebar-mobile.svg)] md:flex-col md:justify-start  md:h-full md:rounded-lg md:w-2/5 md:p-5 md:bg-[url(/images/bg-sidebar-desktop.svg)]">
           {pageNums.map((pageNum, index) => {
             return (

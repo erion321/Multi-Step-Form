@@ -91,15 +91,15 @@ export default function SelelectPlan() {
                 className={`${
                   planValue == index &&
                   "border-[var(--Marine-blue)] bg-[var(--Magnolia)] transition ease-in-out delay-200"
-                } flex items-start gap-3 p-3 border  rounded-lg cursor-pointer transition-all overflow-hidden md:flex-col md:items-center md:px-2
+                } flex items-start gap-3 p-3 border  rounded-lg cursor-pointer transition-all overflow-hidden md:flex-col md:items-center md:px-4
                 ${
                   planType == "Monthly"
-                    ? "h-[4.1rem] md:h-[7.2rem]"
-                    : "h-24 md:h-[8.7rem]"
+                    ? "h-[4.1rem] md:h-[7.6rem]"
+                    : "h-24 md:h-[9.3rem]"
                 }`}
               >
                 <img src={item.image} alt="" />
-                <div>
+                <div className="md:flex md:flex-col md:gap-1">
                   <h3 className="font-bold text-[var(--Marine-blue)]">
                     {item.type}
                   </h3>
